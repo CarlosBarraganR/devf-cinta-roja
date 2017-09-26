@@ -16,7 +16,7 @@ def calculate_vector(p1, p2, result):
         print "Tamanhoos de puntos son diferentes"
     else:
         for i in range(len(p1)):
-            result = result + math.pow(p2[i]-p1[i], 2)
+            result += math.pow(p2[i]-p1[i], 2)
         print "La distancia euclidiana es: " + str(math.sqrt(result))
 
 
