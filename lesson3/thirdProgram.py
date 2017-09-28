@@ -1,10 +1,10 @@
-# myList = [1,2,3,4,5,6]
-#
-# print myList[2]
-# print myList[2:5]
-# print myList[5:]
-# print myList[:5]
-# print myList[:]
+myList = [1,2,3,4,5,6]
+
+print myList[2]
+print myList[2:5]
+print myList[5:]
+print myList[:5]
+print myList[:]
 
 #List Methods
 

@@ -1,5 +1,11 @@
 #Encoding
 # -*- coding: utf-8 -*-
+
+"""
+    list_creator(size)
+
+    :param size = max length of the list
+"""
 def list_creator(size):
     list = []
     for index in range(0, size):

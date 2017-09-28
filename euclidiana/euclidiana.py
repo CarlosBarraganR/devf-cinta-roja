@@ -11,6 +11,11 @@ point_2 = map(int, point_2)
 vectors = [point_1, point_2]
 
 
+"""
+    calculate_vector(p1, p2, result) -> none
+    
+    Calculates euclidean distance for n dimensions and shows the resulta in the prompt
+"""
 def calculate_vector(p1, p2, result):
     if len(p1) != len(p2):
         print "Tamanhoos de puntos son diferentes"
